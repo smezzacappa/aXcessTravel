@@ -1,0 +1,81 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  font-family: 'Courier New', Courier, monospace;
+  top: 150px;
+  bottom: auto;
+}
+
+#slide2{
+  top: auto;
+    bottom: 40%;
+    right: 40%;
+    text-align: left;
+
+}
+#slide3{
+  top: auto;
+  bottom: 35%;
+  left: 0%;
+  text-align: left;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.navbar-brand {
+
+  width: 30%;
+  height: 50px;
+
+}
+
+#logo {
+  font-family: 'Major Mono Display', monospace;
+  color: white;
+  font-size: 30px;
+}
+
+#slide3 {
+  width: 100%;
+  background-position-x: 0, 0, 0;
+}
+
+h3 {
+  font-family: 'Special Elite', cursive;
+}
+
+.nav-link {
+  font-family: 'Source Code Pro', monospace;
+}
+
+footer {
+  height: 20px;
+}
+
+/* #picture3 {
+
+  background-position-y: 3em;
+} */
+
+p {
+  font-size: 30px;
+  filter:drop-shadow((10px 100px 9000px rgba(0, 0, 0, 0.596)));
+
+}
+nav{
+  opacity: .5;
+}
