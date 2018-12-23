@@ -26,15 +26,21 @@
     "url": "git+https://github.com/BlackrockDigital/startbootstrap-full-slider.git"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "bootstrap": "4.1.1",
-    "jquery": "3.3.1"
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jquery": "3.3.1",
+    "path": "^0.12.7"
   },
   "devDependencies": {
-    "browser-sync": "2.24.5",
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1"
   },
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   }
 }
