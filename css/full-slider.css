@@ -19,21 +19,38 @@
   top: 150px;
   bottom: auto;
 }
+#slide1{
+    font-weight: 350;
+    /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.37); */
 
+}
 #slide2{
   top: auto;
     bottom: 40%;
-    right: 50%;
+    right: 40%;
     text-align: left;
+    font-weight: 350;
+    /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.596); */
 
 }
 #slide3{
   top: auto;
-  bottom: 35%;
+  bottom: 37%;
   left: 0%;
   text-align: left;
   padding: 10px;
   margin-left: 30px;
+  font-weight: 350;
+  /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.596); */
+}
+#slide4{
+  top: auto;
+    bottom: 35%;
+    left: 8%;
+    text-align: left;
+    font-weight: 350;
+    /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.39); */
+
 }
 
 .navbar-brand {
@@ -41,6 +58,21 @@
   width: 30%;
   height: 50px;
 
+}
+.icon-bar{
+
+  width: 100%;  
+  overflow: auto;
+}
+.icon-bar a {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 12px;
+  
+  color: white;
+  font-size: 36px;
+  
 }
 
 #logo {
@@ -52,6 +84,9 @@
 #slide3 {
   width: 100%;
   background-position-x: 0, 0, 0;
+}
+#picture4{
+  width: 100%;
 }
 
 h3 {

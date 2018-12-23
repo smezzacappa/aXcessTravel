@@ -11,11 +11,14 @@
     <title>Full Slider - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
+    
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/full-slider.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+
   </head>
 
   <body>
@@ -29,21 +32,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+            <div class="icon-bar">
+                <a class="active" href="#"><i class="fa fa-home"></i></a> 
+                <!-- <a href="#"><i class="fa fa-search"></i></a>  -->
+                <a class="active" href="mailto:seth@appertravel.com"><i class="fa fa-envelope"></i></a> 
+              </div>
         </div>
       </div>
     </nav>
@@ -54,11 +47,12 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('images/yoga-mountain.jpeg')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" id="slide1">
               
               <p>No Matter The Destination.</p>
             </div>
@@ -71,15 +65,24 @@
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('images/greece.jpg')" >
+          <div class="carousel-item" style="background-image: url('images/greece.jpg')" id="picture4">
             <div class="carousel-caption d-none d-md-block" id="slide3">
              
               <p>We're With You.</p> 
               <p>From Start To Finish.</p> 
-              <p> And All The Stops In Between.</p>
+              
             </div>
           </div>
+       
+        <div class="carousel-item" style="background-image: url('images/AdobeStock_132092730.jpeg')" id="picture5" >
+          <div class="carousel-caption d-none d-md-block" id="slide4">
+           
+            
+            <p> And All The Places In Between.</p>
+          </div>
         </div>
+      </div> 
+    </div>
         <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -88,7 +91,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a> -->
-      </div>
+      
     </header>
 
     <!-- Page Content -->
